@@ -241,10 +241,56 @@ add(mult(5, 5), 25)
 print(mult(5, 5)==25)
 print(add(345, 345)==None)
 
-this_str = input('What\'s your name?\t')
-print(this_str)
-print(type(this_str))
-print(this_str.upper())
+# this_str = input('What\'s your name?\t')
+# print(this_str)
+# print(type(this_str))
+# print(this_str.upper())
+
+
+# loops
+# the basic for loop
+# the index loop
+# the while loop
+
+print(my_list)
+
+# basic for loop
+for name in my_list:
+    print(name)
+
+for name in my_list:
+    print(name.upper())
+
+# index loop
+# for i in range(len(iterable)):
+print('\nindex-loop:')
+for i in range(len(my_list)):
+    print(i, my_list[i])
+
+
+# while loop
+# while <condition>:
+while True:
+    print('HHHEEEEELLLLLLOOOOOOOOOOOOOO * 100000000000000')
+    break
+
+print('\nrange funct')
+#Range function:
+# range(start(optional default 0), stop (required), step(optional default 1)):
+for x in range(5):
+    print(x)
+for x in range(0, 5, 1):
+    print(x)
+
+for x in range(10, 21, 2):
+    print(x)
+
+for x in range(-100, -135, -5):
+    print(x)
+
+
+
+
 
 
 
